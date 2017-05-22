@@ -34,9 +34,12 @@ div.container {
 .section {
   float: left;
   max-width: 450px;
-  padding-top: 10px;
   min-height: 550px;
   font-family: verdana;
+  border: 4px solid black;
+  border-radius: 20px;
+  background-color: white;
+  margin: 0 5px;
 }
 .center {
   margin: auto;
@@ -44,7 +47,23 @@ div.container {
   font-family: Georgia;
   font-size: 90%;
   
-  }
+}
+
+.newspaper {
+   font-family: Courier;
+   background-color: #F8ECC2;
+   color: rgba(0,0,0,0.8);
+   text-align: justify;
+   border-radius: 0;
+   border: 0;
+   margin: 8px;
+   
+}
+
+.padding {
+   padding: 15px; 
+}
+
 /* end style for it */
 header{
    color: white;
@@ -52,14 +71,20 @@ header{
    text-align: center;
    font-family: verdana;
    padding: 1em;
-   border-bottom: 2px solid black;
+   border: 4px solid black;
+   border-radius: 0 25px;
 }
+
+body {
+   background-color: rgb(140,140,140);
+}
+
 footer {
    text-align: center;
    background-color: rgb(80,20,20);
    color: white;
    font-size: 18px;
-   border-top: 2px solid black;
+   border: 4px solid black;
    height: 450px;
 }
 aside {
@@ -74,3 +99,9 @@ article {
    overflow: hidden;
 }
 ul.a {list-style_type: disc;}
+
+h1 { text-align: center; }
+
+span.written {
+   font-family: 'Architects Daughter', cursive;
+}
